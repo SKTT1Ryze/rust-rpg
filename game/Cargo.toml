@@ -1,0 +1,18 @@
+[package]
+name = "game"
+version = "0.1.0"
+authors = ["hustccc <1276675421@qq.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+piston = "0.52.0"
+piston2d-graphics = "0.37.0"
+pistoncore-glutin_window = "0.66.0"
+piston2d-opengl_graphics = "0.74.0"
+log = "0.4.11"
+rpg-map = { path = "../rpg-map" }
+config = { path = "../config" }
+error = { path = "../error" }
+player = { path = "../player" }
